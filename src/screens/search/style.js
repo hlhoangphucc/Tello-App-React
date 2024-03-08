@@ -1,0 +1,120 @@
+import { StyleSheet } from 'react-native';
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    paddingTop: 15,
+    backgroundColor: '#15202b',
+    flexDirection: 'colum',
+  },
+  header: {
+    flexDirection: 'row',
+  },
+  content: {
+    width: '80%',
+    height: 45,
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: 'rgba(111, 111, 111, 1)',
+    borderRadius: 10,
+    paddingHorizontal: 20,
+    marginHorizontal: 10,
+    backgroundColor: 'rgba(136, 136, 136, 0.8)',
+    opacity: 0.8,
+    shadowColor: '#A0A0A0',
+    shadowOpacity: 1,
+    elevation: 5,
+  },
+  input: {
+    flex: 1,
+    fontSize: 20,
+    height: 50,
+    marginLeft: 5,
+    color: 'white',
+  },
+  icon: {
+    color: '#b1b5b9',
+    marginRight: 10,
+    fontSize: 20,
+  },
+  itemuser: {
+    borderWidth: 1,
+    borderColor: '#ccc',
+    height: 90,
+    width: '95%',
+    marginHorizontal: 10,
+    flexDirection: 'row',
+  },
+  left: {
+    flex: 0.4,
+    justifyContent: 'center',
+  },
+  center: {
+    flex: 1.2,
+    justifyContent: 'center',
+  },
+  right: {
+    flex: 0.4,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  avtuser: {
+    width: 50,
+    height: 50,
+    marginLeft: 20,
+    borderRadius: 50,
+    borderWidth: 1,
+  },
+  username: {
+    color: 'white',
+    fontSize: 22,
+    fontWeight: '500',
+  },
+  iconchat: {
+    width: 40,
+    height: 40,
+  },
+  bottom: {
+    height: '100%',
+    width: '100%',
+    marginTop: 15,
+  },
+  chatItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 16,
+    margin: 10,
+    borderWidth: 1,
+    borderColor: 'rgba(111, 111, 111, 1)',
+    borderRadius: 5,
+    backgroundColor: 'rgba(136, 136, 136, 0.8)',
+    opacity: 0.8,
+    shadowColor: '#A0A0A0',
+    shadowOpacity: 1,
+    elevation: 5,
+  },
+  avatar: {
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    marginRight: 16,
+  },
+  name: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: 'white',
+  },
+  state: {
+    fontSize: 15,
+    color: 'white',
+  },
+  iconsBackContainer: {
+    width: '10%',
+    height: 45,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginLeft: 5,
+  },
+});
+
+export default styles;
